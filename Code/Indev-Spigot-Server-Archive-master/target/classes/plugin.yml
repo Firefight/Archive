@@ -1,0 +1,10 @@
+name: FirefightAlpha
+version: 0.1-SNAPSHOT
+main: com.ziadeh.FirefightAlpha
+depend: [Ordnance, Vault]
+commands:
+  sp:
+    description: Set a spawn point.
+  shop:
+    description: Opens the gun store.
+    aliases: [store]

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "ordnance",
+  "version": "0.0.1",
+  "name": "Ordnance",
+  "description": "Ordnance is a client mod for playing Firefight",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/ordnance/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [ "studio.archetype.firefight.ordnance.client.OrdnanceClient" ],
+    "modmenu": [ "studio.archetype.firefight.ordnance.hooks.ModMenu" ]
+  },
+  "mixins": [ "ordnance.mixins.json" ],
+  "accessWidener": "ordnance.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.2",
+    "fabric-language-kotlin": ">=1.7.4+kotlin.1.6.21"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "category.ordnance.match": "Firefight In-Match Controls",
+  "key.ordnance.fire": "Fire Weapon",
+  "key.ordnance.zoom": "Zoom",
+
+  "title.ordnance.config": "Ordnance Config",
+  "config.ordnance.bool": "Dumb Boolean",
+  "config.ordnance.bool.@Tooltip": "Is this boolean stupid?"
+}

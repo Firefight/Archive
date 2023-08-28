@@ -1,0 +1,16 @@
+{
+	"credit": "© 2015-2021 MadstonMagic. All rights reserved. https://madstonmagic.github.io/shop/. Made using BlockBench",
+	"parent": "weapons/assault_rifle/hk_xm8/hk_xm8",
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [10, 75, 2],
+			"translation": [-9.5, 0.25, -1.5],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [10, 75, 2],
+			"translation": [-9.5, 0.25, -1.5],
+			"scale": [0.7, 0.7, 0.7]
+		}
+	}
+}

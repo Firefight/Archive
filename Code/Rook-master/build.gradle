@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+}
+
+group 'studio.archetype'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven {
+        name = 'Jitpack'
+        url = 'https://jitpack.io'
+    }
+    maven {
+        name = 'Mojang'
+        url = 'https://libraries.minecraft.net'
+    }
+}
+
+dependencies {
+    implementation "com.github.Minestom:Minestom:${project.minestom_version}-SNAPSHOT"
+    implementation "com.github.luben:zstd-jni:${project.zstd_version}"
+    implementation "com.mojang:datafixerupper:${project.dfu_version}"
+    implementation "com.github.EmortalMC:Rayfast:${project.rayfast_version}"
+
+
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}

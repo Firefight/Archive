@@ -1,0 +1,25 @@
+name: ${name}
+version: ${version}
+main: ${main}
+authors: [ cyberpwn, LizAinslie ]
+website: firefig.ht
+api-version: ${apiversion}
+description: Cardinal is Firefights server side engine, supporting network lobbying, matchmaking, weapon validation, data shenannigans, and dynamic voice chat + streams for game specific content.
+libraries: # Stop shading m2 binaries into your bloated jars, just ref them and inject into cp on enable
+  - com.google.code.gson:gson:2.8.9
+  - com.hashicorp.nomad:nomad-sdk:0.11.3.0
+commands:
+  match:
+    usage: /match join|leave
+    aliases: [ mtch, mat ]
+    description: Matchmaking commands
+    permission: cardinal.match
+  verify:
+    usage: /verify <code>
+    description: Link your forum account
+    permission: cardinal.verify
+  testweapons:
+    usage: /testweapons
+    description: Test weapons
+    permission: cardinal.testweapons
+hotload-dependencies: false

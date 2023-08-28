@@ -1,0 +1,32 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/stick"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1 }, 	"model": "weapons/special/portal_rifle/portal_rifle" },
+		
+		
+		{ "predicate": {"custom_model_data": 2 }, 	"model": "weapons/pistol/beretta_92fs/beretta_92fs" },
+		
+		{ "predicate": {"custom_model_data": 3 }, 	"model": "weapons/pistol/arsenal_firearms_strike_one/arsenal_firearms_strike_one" },
+		
+		
+		{ "predicate": {"custom_model_data": 4 }, 	"model": "weapons/revolver/colt_1873/colt_1873" },
+		
+		
+		{ "predicate": {"custom_model_data": 5 }, 	"model": "weapons/assault_rifle/colt_m16a1/colt_m16a1" },
+		
+		{ "predicate": {"custom_model_data": 6 }, 	"model": "weapons/assault_rifle/hk_xm8/hk_xm8" },
+		{ "predicate": {"custom_model_data": 7 }, 	"model": "weapons/assault_rifle/hk_xm8/hk_xm8_shoot" },
+		{ "predicate": {"custom_model_data": 8 }, 	"model": "weapons/assault_rifle/hk_xm8/hk_xm8_aim" },
+		{ "predicate": {"custom_model_data": 9 }, 	"model": "weapons/assault_rifle/hk_xm8/hk_xm8_aim_shoot" },
+		{ "predicate": {"custom_model_data": 10 }, 	"model": "weapons/assault_rifle/hk_xm8/hk_xm8_safety" },
+		
+		
+		{ "predicate": {"custom_model_data": 11 }, 	"model": "weapons/sub_machine_gun/tdi_vector/tdi_vector" },
+		
+	
+		{ "predicate": {"custom_model_data": 12 }, 	"model": "weapons/light_machine_gun/m60e4/m60e4" }
+	]
+}

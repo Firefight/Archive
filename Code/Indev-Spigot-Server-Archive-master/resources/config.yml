@@ -1,0 +1,27 @@
+####################################
+#          FirefightAlpha          #
+####################################
+
+no-permission: '&cYou do not have permission to use this command.'
+
+only-players: '&cOnly players can use this command.'
+
+spawn-point-created: '&aSet spawn point.'
+
+spawn-point-failed: '&cFailed to create spawn point. (%error%) '
+
+not-enough-credits: '&cYou do not have enough credits to purchase: %item%'
+
+purchase-successful: '§aYou successfully purchased: %item%'
+
+credits-earned: '&aYou earned &f%amount% &acredits for killing &f%player%.'
+
+credits-per-kill: 10
+
+####################################
+#          Shop Settings           #
+####################################
+
+shop-title: '&cFirefight Gun Shop'
+
+confirmation-title: '&cConfirm Purchase'

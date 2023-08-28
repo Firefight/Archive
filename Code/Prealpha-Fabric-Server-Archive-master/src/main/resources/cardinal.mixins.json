@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "studio.archetype.firefight.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "client": [
+    "client.MinecraftClientMixin",
+    "client.TitleScreenMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

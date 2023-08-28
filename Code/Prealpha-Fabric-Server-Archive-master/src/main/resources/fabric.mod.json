@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "cardinal",
+  "version": "${version}",
+
+  "name": "Cardinal",
+  "description": "Firefight's server/client mod",
+  "authors": [
+    "Liz Ainslie"
+  ],
+  "license": "All Rights Reserved",
+  "icon": "assets/cardinal/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      {
+        "value": "studio.archetype.firefight.Cardinal",
+        "adapter": "kotlin"
+      }
+    ],
+    "client": [
+      {
+        "value": "studio.archetype.firefight.Cardinal",
+        "adapter": "kotlin"
+      }
+    ],
+    "main": [
+      {
+        "value": "studio.archetype.firefight.Cardinal",
+        "adapter": "kotlin"
+      }
+    ]
+  },
+  "mixins": [
+    "cardinal.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.7",
+    "fabric": "*",
+    "fabric-language-kotlin": "*",
+    "minecraft": "1.18.2"
+  },
+  "suggests": {},
+  "accessWidener": "cardinal.accessWidener"
+}

@@ -1,0 +1,5 @@
+name: CardinalBungee
+main: ht.firefig.cardinal.proxy.CardinalBungee
+libraries: # Stop shading m2 binaries into your bloated jars, just ref them and inject into cp on enable
+  - com.google.code.gson:gson:2.8.9
+  - com.hashicorp.nomad:nomad-sdk:0.11.3.0
